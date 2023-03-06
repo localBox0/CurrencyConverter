@@ -27,7 +27,7 @@ function App() {
     return (
         <div className="App">
             <Block value={0} currency={fromCurrency} onChangeCurrency={setFromCurrency}/>
-            <Block value={0} />
+            <Block value={0} currency={toCurrency} onChangeCurrency={setToCurrency}/>
         </div>
     );
 }
