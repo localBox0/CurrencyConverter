@@ -108,3 +108,43 @@ body {
     border-color: #3b82f6;
 }
 
+@media (max-width: 998px) {
+    .App {
+        display: flex;
+        max-width: 90%;
+        flex-direction: column;
+        margin: 50px auto;
+        padding: 20px;
+    }
+    .block {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 545px) {
+    .App {
+        display: flex;
+        max-width: 95%;
+        flex-direction: column;
+        margin: 50px auto;
+        padding: 20px;
+    }
+    .block {
+        margin-bottom: 25px;
+    }
+    .block input {
+        font-size: 1.5rem;
+    }
+    .block .currencies {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .block .currencies select {
+        font-size: 14px;
+
+    }
+    .block .currencies li svg {
+        width: 12px;
+        height: 12px;
+    }
+}
